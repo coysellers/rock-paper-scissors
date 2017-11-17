@@ -1,8 +1,8 @@
 # rock-paper-scissors
 A Rock, Paper, Scissors game built with JavaScript. This project is part of a personal effort to keep learning, set aside JS frameworks momentarily, and build more things using only Javascript.
 
-## Details
-This app is currently incomplete... :mount_fuji: :page_facing_up: :scissors:
+## Details :mount_fuji: :page_facing_up: :scissors:
+This app is currently incomplete...
 
 The goal here is to:
 
@@ -18,6 +18,6 @@ The goal here is to:
 - [ ] Learn about and use JavaScript Classes, Importing, and Exporting to refactor
 - [ ] Clean Up style (maybe use a css framework like Tailwind or Spectre.css)
 
-**Saving Data**
+**Save Data**
 
 - [ ] Use local storage to keep track of score and total games won.
