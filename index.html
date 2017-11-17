@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Roshambo | ⛰📄✂</title>
+</head>
+<body>
+    <h1 class="title font-serif">Roshambo</h1>
+    <section class="game font-serif">
+        <span class="vs">vs</span>
+        <div class="column">
+            <span>The Machine ~ score: </span>
+            <i class="js-opp-score">0</i>
+            <div class="js-opponent"></div>
+        </div>
+        <div class="column">
+            <span>You ~ score: </span>
+            <i class="js-player-score">0</i>
+            <div class="js-player"></div>
+        </div>
+    </section>
+    <section class="options">
+        <button class="bg-black hover:bg-white text-white font-semibold hover:text-black py-2 px-4 border border-black hover:border-black js-button" data-type="rock">⛰</button>
+        <button class="bg-black hover:bg-white text-white font-semibold hover:text-black py-2 px-4 border border-black hover:border-black js-button" data-type="paper">📄</button>
+        <button class="bg-black hover:bg-white text-white font-semibold hover:text-black py-2 px-4 border border-black hover:border-black js-button" data-type="scissors">✂</button>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

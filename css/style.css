@@ -1,0 +1,52 @@
+.title {
+	text-align: center;
+	font-weight: 400;
+	font-size: 2rem;
+	font-style: italic;
+	margin: 4rem 0;
+}
+h2 {
+	font-size: 3.5rem;
+	font-weight: 400;
+}
+.title {
+	text-align: center;
+	font-weight: 400;
+	font-size: 2rem;
+	font-style: italic;
+	margin: 6rem 0;
+	text-decoration: underline;
+}
+.game {
+	position: relative;
+	display: flex;
+	margin-bottom: 8rem;
+	height: 8rem;
+}
+.vs {
+	color: white;
+	padding: 8px;
+	line-height: 1;
+	border-radius: 16px;
+	background: black;
+	position: absolute;
+	right: 50%;
+	top: 50%;
+	transform: translate(50%, -50%);
+}
+.column {
+	position: relative;
+	text-align: center;
+	flex: 1;
+}
+.result {
+	width: 50%;
+	height: 50%;
+	overflow: auto;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+.options {
+	text-align: center;
+}
